@@ -1,0 +1,19 @@
+<svg width="1920" height="1368" viewBox="0 0 1920 1368" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="91.2778" width="1920" height="1185.44" fill="#FF6060"/>
+<rect y="60.8521" width="26" height="30.426" fill="#FF6060"/>
+<rect x="26" y="30.4258" width="26" height="30.426" fill="#FF6060"/>
+<rect x="52" y="60.8521" width="26" height="30.426" fill="#FF6060"/>
+<rect width="26" height="30.426" fill="#FF6060"/>
+<rect x="1920" y="1307.15" width="26" height="30.426" transform="rotate(180 1920 1307.15)" fill="#FF6060"/>
+<rect x="1894" y="1337.57" width="26" height="30.426" transform="rotate(180 1894 1337.57)" fill="#FF6060"/>
+<rect x="1868" y="1307.15" width="26" height="30.426" transform="rotate(180 1868 1307.15)" fill="#FF6060"/>
+<rect x="1920" y="1368" width="26" height="30.426" transform="rotate(180 1920 1368)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(-1 0 0 1 1920 60.8521)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(-1 0 0 1 1894 30.4258)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(-1 0 0 1 1868 60.8521)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(-1 0 0 1 1920 0)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(1 0 0 -1 0 1307.15)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(1 0 0 -1 26 1337.57)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(1 0 0 -1 52 1307.15)" fill="#FF6060"/>
+<rect width="26" height="30.426" transform="matrix(1 0 0 -1 0 1368)" fill="#FF6060"/>
+</svg>

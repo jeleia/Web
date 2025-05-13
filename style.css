@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.imagem-pitunho{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.legenda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+.card{
+    padding: 1%;
+    margin: 2%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navegacao{
+    font-family: "Handjet", sans-serif;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 2%;
+}
+
+.btn{
+    width: 2%;
+    margin: 500%;
+}
+
+body {
+    margin: 0;
+    font-family: "Exo", sans-serif;
+    background-color: #f9f9f9;
+    color: #111;
+  }
+
+  header {
+    background-color: #d3e0dd;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: "Handjet", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+  }
+
+  .container {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text-content {
+    max-width: 600px;
+  }
+
+  h1 {
+    font-family: "Handjet", sans-serif;
+    font-weight: 1000;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .buttons button {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-verm {
+    background-color: #ff6b6b;
+  }
+
+  .btn-azul {
+    background-color: #3c4a63;
+  }
+
+  .btn-ciano {
+    background-color: #c5ebe6;
+  }
+
+  .robot-img {
+    max-width: 250px;
+  }
