@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&display=swap');
 
+body {
+    margin: 0;
+    font-family: "Exo", sans-serif;
+    background-color: #F4F3F2;
+    color: #111;
+  }
+
+/*Fontes*/
 .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+/*Fontes FIM*/
 
 .imagem-pitunho{
     display: flex;
@@ -39,10 +48,6 @@
     display: flex;
 }
 
-.navegacao{
-    font-family: "Handjet", sans-serif;
-    font-size: 150%;
-}
 
 .buttons{
     display: flex;
@@ -55,32 +60,32 @@
     margin: 500%;
 }
 
-body {
-    margin: 0;
-    font-family: "Exo", sans-serif;
-    background-color: #f9f9f9;
-    color: #111;
-  }
-
+  /*Navbar*/
   header {
     background-color: #d3e0dd;
-    padding: 2% 2%;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: space-between;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 2% 2% 2% 2%;
   }
+
+  .navegacao{
+    font-family: "Handjet", sans-serif;
+    font-size: 150%;
+    color: black;
+    text-decoration: none;
+    font-size: 160%;
+    padding: 2% 2%;
+  }
+  /*Navbar FIM*/
 
   .logo {
     font-family: "Handjet", sans-serif;
     font-size: 20%;
     font-weight: bold;
-  }
-
-  nav a {
-    margin-left: 2%;
-    text-decoration: none;
-    color: #111;
-    font-size: 14px;
   }
 
   .container {
@@ -268,9 +273,9 @@ body {
     }
 
     footer {
-      background-color: #e3e1e1;
+      background-color: #DEDCDC;
       padding: 15px 0;
       text-align: center;
-      font-size: 14px;
-      border-top: 1px solid #aaa;
+      font-size: 18px;
+      font-family: "Handjet", sans-serif;
     }
