@@ -3,64 +3,26 @@
 
 body {
     margin: 0;
-    font-family: "Exo", sans-serif;
     background-color: #F4F3F2;
     color: #111;
   }
 
 /*Fontes*/
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
+  h1{
+    font-family: "Handjet", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
+
+  h2, p{
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 /*Fontes FIM*/
 
-.imagem-pitunho{
-    display: flex;
-    width: 30%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.legenda{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-.conteudo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 5%;
-}
-
-.card{
-    padding: 1%;
-    margin: 2%;
-    width: 30%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-
-.buttons{
-    display: flex;
-    flex-direction: row;
-    width: 2%;
-}
-
-.btn{
-    width: 2%;
-    margin: 500%;
-}
-
-  /*Navbar*/
+/*Navbar*/
   header {
     background-color: #d3e0dd;
     display: flex;
@@ -80,202 +42,156 @@ body {
     font-size: 160%;
     padding: 2% 2%;
   }
-  /*Navbar FIM*/
+/*Navbar FIM*/
 
-  .logo {
-    font-family: "Handjet", sans-serif;
-    font-size: 20%;
-    font-weight: bold;
-  }
-
-  .container {
-    display: flex;
-    padding: 20%;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .text-content {
-    max-width: 50%;
-  }
-
-  h1 {
-    font-family: "Handjet", sans-serif;
-    font-weight: 1000;
-    font-size: 32px;
-    margin-bottom: 5%;
-  }
-
-  p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-  .buttons {
-    margin-top: 10%;
-  }
-
-  .buttons button {
-    width: 5%;
-    height: 5%;
-    margin-right: 10px;
-    border: none;
-    cursor: pointer;
-  }
-
+/*Página Inicial*/
   .btn-verm {
-    background-color: #ff6b6b;
-  }
+      background-color: #ff6b6b;
+    }
 
-  .btn-azul {
-    background-color: #3c4a63;
-  }
+    .btn-azul {
+      background-color: #3c4a63;
+    }
 
-  .btn-ciano {
-    background-color: #c5ebe6;
-  }
+    .btn-ciano {
+      background-color: #c5ebe6;
+    }
+/*Página Inicial FIM*/
 
-  .robot-img {
-    max-width: 50%;
-  }
+/*Robô*/
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+/*Robô FIM*/
 
-.carossel{
-  width: 40%;
-  height: 40%;
-  margin: auto;
-}
+/*Arma*/
 
-.content-box {
-  background-color: white;
-  width: 80%;
-  max-width: 900px;
-  display: flex;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-}
-
-.text-section {
-  flex: 2;
-  padding-right: 20px;
-}
-
-.image-section {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image-section img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-
-
-  .card-equipe {
-    background-color: #fff;
-    padding: 40px;
-    width: 800px;
+  .card-esquerda, .card-central, .card-direita {
+    padding: 40px 30px;
+    width: 50%;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 #000;
     display: flex;
-    margin: auto;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
-    border: 1px solid #000;
   }
 
-  .text-content {
-    max-width: 500px;
+  .imagem-pitunho{
+      display: flex;
+      width: 30%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
   }
 
-  h2 {
-    font-family: 'Courier New', monospace;
-    font-weight: bold;
-  }
-
-  .bold {
-    font-weight: bold;
-  }
-
-  img.photo {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-  }
-
-  .arrow {
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-    width: 50px;
-  }
-
-   .form-container {
-      background-color: #f9f9f9;
-      padding: 40px 30px;
-      width: 400px;
-      position: relative;
-      border: 2px solid #000;
-      box-shadow: 3px 3px 0 #000;
-    }
-
-    h2 {
-      text-align: center;
-      margin-top: 0;
-      font-weight: bold;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 2px solid #000;
-      font-family: 'Courier New', monospace;
-    }
-
-    textarea {
-      resize: vertical;
-      height: 100px;
-    }
-
-    .close-btn {
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      border: 2px solid #000;
-      padding: 2px 8px;
-      font-weight: bold;
-      font-family: 'Courier New', monospace;
-      background-color: #fff;
-      cursor: pointer;
-    }
-
-    .close-btn:hover {
-      background-color: #eee;
-    }
-
-    .Contato{
+  .legenda{
       display: flex;
       align-items: center;
       justify-content: center;
       margin: auto;
-      margin-top: 5%;
-      margin-bottom: 5%;
-    }
+  }
 
-    footer {
-      background-color: #DEDCDC;
-      padding: 15px 0;
-      text-align: center;
-      font-size: 18px;
-      font-family: "Handjet", sans-serif;
-    }
+  .conteudo-arma{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin: 5%;
+  }
+/*Arma FIM*/
+
+/*Desenvolvimento*/
+  .carossel{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+  }
+
+  .card-planejamento, .card-prototipagem, .card-final {
+    padding: 40px 30px;
+    width: 50%;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*Desenvolvimento FIM*/
+
+/*Equipe*/
+
+.card-equipe {
+    padding: 40px 30px;
+    width: 50%;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*Equipe FIM*/
+
+/*Contato*/
+  .form-container {
+    padding: 40px 30px;
+    width: 50%;
+    border: 2px solid #000;
+    box-shadow: 3px 3px 0 #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .campo-1, .campo-2, .campo-3{
+    font-family: "Exo", sans-serif;
+    margin: 1% 1% 1% 1%;
+    padding: 10px;
+    border: 2px solid #000;
+    width: 100%;
+  }
+
+  .texto-contato{
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  .campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250%;
+    margin-bottom: 7%;
+  }
+
+  .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+/*Contato FIM*/
+
+/*Footer*/
+  footer {
+    background-color: #DEDCDC;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Handjet", sans-serif;
+  }
+/*Footer FIM*/
