@@ -66,13 +66,21 @@ body {
 
   .card-esquerda, .card-central, .card-direita {
     padding: 40px 30px;
-    width: 50%;
     border: 2px solid #000;
+    width: 25%;
+    /*Arrumar o Height*/
     box-shadow: 3px 3px 0 #000;
+    margin: 1% 1% 1% 1%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .titulo-arma{
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    /*Arrumar a posição*/
   }
 
   .imagem-pitunho{
@@ -97,9 +105,26 @@ body {
       justify-content: center;
       margin: 5%;
   }
+
+  .container-arma{
+    margin: auto;
+  }
 /*Arma FIM*/
 
 /*Desenvolvimento*/
+
+  .conteudo-desenvolvimento{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+  
+  .titulo-desenvolvimento{
+    margin: 1% 1% 1% 1%;;
+  }
+
   .carossel{
     width: 40%;
     height: 40%;
@@ -109,6 +134,7 @@ body {
   .card-planejamento, .card-prototipagem, .card-final {
     padding: 40px 30px;
     width: 50%;
+    margin: 1% 1% 1% 1%;
     border: 2px solid #000;
     box-shadow: 3px 3px 0 #000;
     display: flex;
@@ -123,6 +149,7 @@ body {
 
 .card-equipe {
     padding: 40px 30px;
+    margin: auto;
     width: 50%;
     border: 2px solid #000;
     box-shadow: 3px 3px 0 #000;
