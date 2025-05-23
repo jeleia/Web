@@ -39,15 +39,22 @@
         </p>
       </div>
       <div class="buttons">
-        <button class="btn btn-verm">
-          <img class="img-btn" src="images/iconeInsta.svg" alt="">
-        </button>
-        <button class="btn btn-azul">
-          <img class="img-btn" src="images/iconeYoutube.svg" alt="">
-        </button>
-        <button class="btn btn-ciano">
-          <img class="img-btn" src="images/iconeDirect.svg" alt="">
-        </button>
+        <a class="btn-verm" href="https://www.instagram.com" target="_blank">
+          <button class="btn">
+          <img class="img-btn" src="images/iconeInsta.svg" alt="Instagram">
+          </button>
+        </a>
+        <a class="btn-azul" href="https://youtu.be/nmHeNiDrBt4" target="_blank">
+          <button class="btn ">
+          <img class="img-btn" src="images/iconeYoutube.svg" alt="Instagram">
+          </button>
+        </a>
+        <a class="btn-ciano" target="_blank">
+          <button id="copiarEmail" class="btn" target="_blank">
+            <p id="email" style="display: none;">robocuppitufas@gmail.com</p>
+          <img class="img-btn" src="images/iconeDirect.svg" alt="Instagram">
+          </button>
+        </a>
       </div>
     </div>
     <img class="robot-img" src="images/logoPitufo.svg" alt="Logo do robô Pitufo">
@@ -211,6 +218,14 @@
   <footer>© 2025 Pitufas - Todos os direitos reservados.</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-
+  <script>
+    document.getElementById("copiarEmail").addEventListener("click", function() {
+    let email = document.getElementById("email").textContent;
+    navigator.clipboard.writeText(email).then(function() {
+    alert("E-mail copiado para a área de transferência!");
+    });
+    });
+  </script>
+  
 </body>
 </html>
