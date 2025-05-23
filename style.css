@@ -167,8 +167,24 @@ body {
 
 /*Arma*/
 
-  .card-esquerda, .card-central, .card-direita {
+  .Arma{
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .card-esquerda, .card-direita {
     padding: 40px 30px;
+    border: 2px solid #000;
+    width: 20%;
+    height: 320px;
+    box-shadow: 3px 3px 0 #000;
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-central{
     border: 2px solid #000;
     width: 20%;
     height: 320px;
@@ -191,18 +207,37 @@ body {
     font-size: 115%;
   }
   
+  .posicao-titulo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 65%;
+    margin: auto;
+  }
+
   .titulo-arma{
     margin: 1% 1% 1% 1%;
     display: flex;
-    /*Arrumar a posição*/
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-weight: 550;
+    width: 40%;
+  }
+
+  .card-imagem{
+    background-image: url('images/img1-arma.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
   }
 
   .imagem-pitunho{
       display: flex;
-      width: 30%;
-      align-items: center;
-      justify-content: center;
-      margin: auto;
+      width: 100%;
+      height: 320px;
   }
 
   .legenda{
@@ -212,9 +247,16 @@ body {
       margin: auto;
   }
 
+  .cards-arma{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
   .conteudo-arma{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
   }
@@ -234,8 +276,12 @@ body {
     margin-bottom: 5%;
     }
   
+  .container-titulo-desenvolvimento{
+    margin: 6% 1% 2% 15.8%;
+  }
+
   .titulo-desenvolvimento{
-    margin: 1% 1% 1% 1%;;
+    font-weight: 520;
   }
 
   .card-galeria{
@@ -249,7 +295,7 @@ body {
   }
 
   .imagens-carrossel{
-    margin: 1% 1% 1% 1%;
+    margin: 5% 1% 5% 1%;
     width: 20%;
     display: flex;
     flex-direction: row;
@@ -324,8 +370,16 @@ body {
 /*Equipe FIM*/
 
 /*Contato*/
+
+  .botao-contato{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 2%;
+    margin-right: -92%;
+  }
+
   .form-container {
-    padding: 40px 30px;
     width: 50%;
     border: 2px solid #000;
     box-shadow: 3px 3px 0 #000;
@@ -354,7 +408,8 @@ body {
 
   .texto-contato{
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 13%;
+    font-weight: 600;
   }
 
   .campos{
@@ -371,6 +426,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 18%;
   }
 
 /*Contato FIM*/

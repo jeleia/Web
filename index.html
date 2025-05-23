@@ -82,9 +82,11 @@
   <section class="Arma">
 
     <div class="container-arma">
-      <h1 class="titulo-arma">A ARMA</h1>
       <div class="conteudo-arma">
-
+        <div class="posicao-titulo">
+          <h1 class="titulo-arma">A ARMA</h1>
+        </div>
+        <div class="cards-arma">
         <!-- Card da arma 1-->
         <div class="card-esquerda">
           <div class="card-body card-body-1">
@@ -97,9 +99,7 @@
         
         <!-- Card da arma 2-->
         <div class="card-central">
-          <div class="card-body">
-            <img src="images/img1-arma.png" alt="Pitunhos 2.0" class="imagem-pitunho" />
-            <div class="legenda">Pitunhos 2.0</div>
+          <div class="card-body card-imagem">
           </div>
         </div>
         
@@ -111,6 +111,7 @@
             </p>
           </div>
         </div>
+        </div>
       </div>
 
     </div>
@@ -120,16 +121,16 @@
   <!-- Seção do desenvolvimento -->
   <section class="Desenvolvimento">
 
-    <div class="titulo-desenvolvimento">
-      <h1 class="titulo">DESENVOLVIMENTO</h1>
-      </div>
+    <div class="container-titulo-desenvolvimento">
+      <h1 class="titulo-desenvolvimento">DESENVOLVIMENTO</h1>
+    </div>
       
     <div class="container">
 
       <div class="card-galeria">
         <img class="imagens-carrossel" src="images/img1-desenvolvimento.png" alt="">
-        <img class="imagens-carrossel" src="images/img2-desenvolvimento.jpg" alt="">
-        <img class="imagens-carrossel" src="images/img3-desenvolvimento.jpg" alt="">
+        <img class="imagens-carrossel" src="images/img2-desenvolvimento.png" alt="">
+        <img class="imagens-carrossel" src="images/img3-desenvolvimento.png" alt="">
         <img class="imagens-carrossel" src="images/img4-desenvolvimento.png" alt="">
       </div>
 
@@ -184,8 +185,13 @@
   <!-- Seção do contato -->
   <section class="Contato">
     <div class="form-container">
-      <button class="botao-contato">X</button> <!-- Arrumar esse botão -->
+      <div class="botao-contato">
+      <button>X</button> <!-- Arrumar esse botão -->
+      </div>
+      <div>
       <h1 class="texto-contato">Entre em contato:</h1>
+      </div>
+      <div>
       <form class="formulario">
         <div class="campos">
         <input class="campo-1" type="text" placeholder="Nome completo:" required>
@@ -197,6 +203,7 @@
         <textarea class="campo-3" placeholder="Mensagem:" required></textarea>
         </div>
       </form>
+      </div>
     </div>
   </section>
 
