@@ -2,401 +2,436 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&display=swap');
 
 body {
-    margin: 0;
-    background-color: #F4F3F2;
-    color: #111;
-  }
+  margin: 0;
+  background-color: #F4F3F2;
+  color: #111;
+}
 
 /*Fontes*/
-  h1, h3{
-    font-family: "Handjet", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+h1{
+  font-family: "Handjet", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  h2, p{
-    font-family: "Exo", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+h2, p{
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.conteudo-desenvolvimento h2{
+  font-family: "Handjet", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 /*Fontes FIM*/
 
 /*Navbar*/
+.navbar-landpage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
 
-  .navbar-landpage{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-  }
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:2%;
+  width: 8%;
+}
 
-  .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left:2%;
-    width: 8%;
-  }
+.navegacao{
+  display: flex;
+  flex-direction: row;
+  background-color: #d3e0dd;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 1;
+  width: 90%;
+  margin-top: 7%;
+}
 
-  .navegacao{
-    display: flex;
-    flex-direction: row;
-    background-color: #d3e0dd;
-    border-radius: 20px;
-    position: fixed;
-    z-index: 1;
-    width: 90%;
-    margin-top: 7%;
-  }
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-  header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+.cursor-navbar{
+  width: 10px;
+  height: 30px;
+  position: relative;
+  top: 30px;
+  left: 93%;
+}
 
-  .itens-navegacao{
-    font-family: "Handjet", sans-serif;
-    color: black;
-    text-decoration: none;
-    font-size: 160%;
-    font-weight: 500;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 1% 1% 1% 1%;
-  }
+.itens-navegacao{
+  font-family: "Handjet", sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 160%;
+  font-weight: 500;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 1% 1% 1% 1%;
+}
 /*Navbar FIM*/
 
 /*Página Inicial*/
+.img-btn{
+  width: 100%;
+  height: 100%;
+}
 
-  .img-btn{
-    width: 100%;
-    height: 100%;
-  }
+.btn{
+  width: 10%;
+}
 
-  .btn{
-    width: 10%;
-  }
+.btn-verm {
+  text-decoration: none;
+  margin-left: -1%;
+}
 
-  .btn-verm {
-    text-decoration: none;
-    margin-left: -1%;
-  }
+.btn-azul {
+  text-decoration: none;
 
-  .btn-azul {
-    text-decoration: none;
+}
 
-  }
+.btn-ciano {
+  text-decoration: none;
+}
 
-  .btn-ciano {
-    text-decoration: none;
-  }
+.container-landpage{
+  display: flex;
+  flex-direction: row;
+}
 
-  .container-landpage{
-    display: flex;
-    flex-direction: row;
-  }
+.paragrafo-landpage{
+  margin-top: 2%;
+  font-size: 140%;
+  width: 80%;
+}
 
-  .paragrafo-landpage{
-    margin-top: 2%;
-    font-size: 140%;
-    width: 80%;
-  }
+.texto-landpage{
+  font-family: "Handjet", sans-serif;
+  font-size: 400%;
+  font-weight: 600;
+}
 
-  .texto-landpage{
-    font-family: "Handjet", sans-serif;
-    font-size: 400%;
-    font-weight: 600;
-  }
-
-  .conteudo-landpage{
-    margin-top: 25%;
-    margin-bottom: 20%;
-  }
-
+.conteudo-landpage{
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
 /*Página Inicial FIM*/
 
 /*Robô*/
-  .container-secao-robo{
-    width: 100%;
-    height: 750px;
-    background-image: url('images/bgRobo.svg');
-    background-position: center center;
-    background-size: contain;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.container-secao-robo{
+  width: 100%;
+  height: 750px;
+  background-image: url('images/bgRobo.svg');
+  background-position: center center;
+  background-size: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .o-robo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+.cursor-robo{
+  position: relative;
+  top: 28%;
+  left: 15%;
+}
 
-  .conteudo-robo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin-left: 4%;
-    margin-top: 2%;
-  }
+.o-robo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-  .imagem-robo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-  }
+.conteudo-robo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: 4%;
+  margin-top: 2%;
+}
 
-  .imagem-secao-robo{
-    width: 56%;
-    border-radius: 4%;
-  }
+.imagem-robo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
 
-  .titulo-robo{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: 4%;
-    margin-bottom: 1.5%;
-  }
+.imagem-secao-robo{
+  width: 56%;
+  border-radius: 4%;
+}
 
-  .container-robo{
-    background-color: #ffffff;
-    padding: 40px 30px;
-    border: 2px solid #000;
-    box-shadow: 3px 3px 0 #000;
-    margin: 1% 1% 1% 1%;
-    display: flex;
-    flex-direction: column;
-  }
+.titulo-robo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 4%;
+  margin-bottom: 1.5%;
+}
+
+.container-robo{
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  margin: 1% 1% 1% 1%;
+  display: flex;
+  flex-direction: column;
+}
 /*Robô FIM*/
 
 /*Arma*/
+.Arma{
+  margin-top: -5%;
+  margin-bottom: 7%;
+}
 
-  .Arma{
-    margin-top: 7%;
-    margin-bottom: 7%;
-  }
-  .card-esquerda, .card-direita {
-    padding: 40px 30px;
-    border: 2px solid #000;
-    width: 20%;
-    height: 320px;
-    box-shadow: 3px 3px 0 #000;
-    margin: 1% 1% 1% 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.arma-seta-vermelha{
+  position: relative;
+  top: 160px; /*nao tava funcionando porcentagem, nao sei pq, mas a seta nao mudava de posicao se n fosse em px*/
+  left: 58%;
+}
 
-  .card-central{
-    border: 2px solid #000;
-    width: 20%;
-    height: 320px;
-    box-shadow: 3px 3px 0 #000;
-    margin: 1% 1% 1% 1%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.arma-seta-azul{
+  position: relative;
+  top: 505px; /*mesma coisa da porcentagem aqui, capaz d ser algum errinho bobo de hierarquia ma n sei qual*/
+  left: 35%;
+}
 
-  .card-body-1, .card-body-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+.card-esquerda, .card-direita {
+  padding: 40px 30px;
+  border: 2px solid #000;
+  width: 20%;
+  height: 320px;
+  box-shadow: 3px 3px 0 #000;
+  margin: 1% 1% 1% 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .paragrafo-arma{
-    font-size: 115%;
-  }
+.card-central{
+  border: 2px solid #000;
+  width: 20%;
+  height: 320px;
+  box-shadow: 3px 3px 0 #000;
+  margin: 1% 1% 1% 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body-1, .card-body-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.paragrafo-arma{
+  font-size: 115%;
+}
   
-  .posicao-titulo{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 65%;
-    margin: auto;
-  }
+.posicao-titulo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 65%;
+  margin: auto;
+}
 
-  .titulo-arma{
-    margin: 1% 1% 1% 1%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-weight: 550;
-    width: 40%;
-  }
+.titulo-arma{
+  margin: 1% 1% 1% 1%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-weight: 550;
+  width: 40%;
+}
 
-  .card-imagem{
-    background-image: url('images/img1-arma.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-color: #cccccc;
-    height: 100%;
-    width: 100%;
-  }
+.card-imagem{
+  background-image: url('images/img1-arma.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #cccccc;
+  height: 100%;
+  width: 100%;
+}
 
-  .imagem-pitunho{
-      display: flex;
-      width: 100%;
-      height: 320px;
-  }
+.imagem-pitunho{
+  display: flex;
+  width: 100%;
+  height: 320px;
+}
 
-  .legenda{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: auto;
-  }
+.legenda{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 
-  .cards-arma{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
+.cards-arma{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-  .conteudo-arma{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
+.conteudo-arma{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  .container-arma{
-    margin: auto;
-  }
+.container-arma{
+  margin: auto;
+}
 /*Arma FIM*/
 
 /*Desenvolvimento*/
-  .container-secao-dev{
-    width: 100%;
-    height: 700px;
-    background-image: url('images/bgDev.svg');
-    background-position: center center;
-    background-size: contain;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }  
+.container-secao-dev{
+  width: 100%;
+  height: 700px;
+  background-image: url('images/bgDev.svg');
+  background-position: center center;
+  background-size: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}  
 
-  .conteudo-desenvolvimento{
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+.conteudo-desenvolvimento{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.cursor-desenvolvimento{
+  position: relative;
+  top: 68%;
+  left: 80%;
+}
   
-  .container-titulo-desenvolvimento{
-    margin: 6% 1% 2% 15.8%;
-  }
+.container-titulo-desenvolvimento{
+  margin: -1% 1% 2% 1%;
+}
 
-  .titulo-desenvolvimento{
-    font-weight: 520;
-  }
+.titulo-desenvolvimento{
+  font-weight: 520;
+}
 
-  .card-galeria{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 1% 1% 1% 1%;
-    border: 2px solid #000;
-    box-shadow: 3px 3px 0 #000;
-    background-color: #ffffff;
-  }
+.card-galeria{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 1% 1% 1%;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  background-color: #ffffff;
+}
 
-  .imagens-carrossel{
-    margin: 5% 1% 5% 1%;
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4%;
-  }
+.imagens-carrossel{
+  margin: 5% 1% 5% 1%;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4%;
+}
 
-  .card-planejamento, .card-prototipagem, .card-final{
-    padding: 40px 30px;
-    width: 50%;
-    margin: 1% 1% 1% 1%;
-    border: 2px solid #000;
-    box-shadow: 3px 3px 0 #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-  }
+.card-planejamento, .card-prototipagem, .card-final{
+  padding: 40px 30px;
+  width: 30%;
+  margin: 1% 1% 1% 1%;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
 
-  .card-planejamento img{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    bottom: 60px;
-    left: 150px;
-  }
+.card-planejamento img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 60px;
+  left: 150px;
+}
 
-  .card-prototipagem img{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    bottom: 70px;
-    left: 150px;
-  }
+.card-prototipagem img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 70px;
+  left: 150px;
+}
 
-  .card-final img{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    bottom: 80px;
-    left: 150px;
-  }
+.card-final img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 80px;
+  left: 150px;
+}
 
-  .card-planejamento{
-    height: 290px;
-  }
+.card-planejamento{
+  height: 290px;
+}
 
-  .card-prototipagem{
-    height: 360px;
-  }
-
+.card-prototipagem{
+  height: 360px;
+}
 /*Desenvolvimento FIM*/
 
 /*Equipe*/
 .container-secao-equipe{
-    width: 100%;
-    height: 900px;
-    background-image: url('images/bgEquipe.svg');
-    background-position: center center;
-    background-size: contain;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 5%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 900px;
+  background-image: url('images/bgEquipe.svg');
+  background-position: center center;
+  background-size: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-equipe {
   padding: 40px 30px;
   margin: auto;
+  margin-top: 6%;
   width: 70%;
   border: 2px solid #000;
   box-shadow: 3px 3px 0 #000;
@@ -405,6 +440,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.cursor-equipe{
+  position: relative;
+  top: 67%;
+  left: 20%;
 }
 
 .grupo-texto-equipe{
@@ -441,81 +482,78 @@ body {
   width: 70%;
   border-radius: 5%;
 }
-
 /*Equipe FIM*/
 
 /*Contato*/
+.botao-contato{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 2%;
+  margin-right: -92%;
+}
 
-  .botao-contato{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-top: 2%;
-    margin-right: -92%;
-  }
+.form-container {
+  width: 50%;
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 40vh;
+}
 
-  .form-container {
-    width: 50%;
-    border: 2px solid #000;
-    box-shadow: 3px 3px 0 #000;
-    background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    bottom: 40vh;
-  }
+.Contato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
-  .Contato{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
+.campo-1, .campo-2, .campo-3{
+  font-family: "Exo", sans-serif;
+  margin: 1% 1% 1% 1%;
+  padding: 10px;
+  border: 2px solid #000;
+  width: 100%;
+}
 
-  .campo-1, .campo-2, .campo-3{
-    font-family: "Exo", sans-serif;
-    margin: 1% 1% 1% 1%;
-    padding: 10px;
-    border: 2px solid #000;
-    width: 100%;
-  }
+.texto-contato{
+  margin-top: 1%;
+  margin-bottom: 13%;
+  font-weight: 600;
+}
 
-  .texto-contato{
-    margin-top: 1%;
-    margin-bottom: 13%;
-    font-weight: 600;
-  }
+.campos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250%;
+  margin-bottom: 7%;
+}
 
-  .campos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 250%;
-    margin-bottom: 7%;
-  }
-
-  .formulario{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 18%;
-  }
-
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18%;
+}
 /*Contato FIM*/
 
 /*Footer*/
-  footer {
-    background-color: #DEDCDC;
-    padding: 15px 0;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Handjet", sans-serif;
-  }
+footer {
+  background-color: #DEDCDC;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Handjet", sans-serif;
+}
 /*Footer FIM*/
