@@ -386,7 +386,7 @@ header{
   height: 100px;
   position: relative;
   bottom: 60px;
-  left: 150px;
+  left: 195px;
 }
 
 .card-prototipagem img{
@@ -394,7 +394,14 @@ header{
   height: 100px;
   position: relative;
   bottom: 70px;
-  left: 150px;
+  left: 195px;
+}
+
+.texto-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
 }
 
 .card-final img{
@@ -402,7 +409,7 @@ header{
   height: 100px;
   position: relative;
   bottom: 80px;
-  left: 150px;
+  left: 195px;
 }
 
 .card-planejamento{
@@ -511,8 +518,7 @@ header{
   align-items: center;
   justify-content: center;
   margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 15%;
 }
 
 .campo-1, .campo-2, .campo-3{
